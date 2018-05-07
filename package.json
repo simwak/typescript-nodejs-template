@@ -1,0 +1,23 @@
+{
+  "name": "typescript-nodejs-template",
+  "version": "1.0.0",
+  "description": "A Typescript Node.js Template",
+  "main": "Startup.ts",
+  "scripts": {
+    "build": "tsc && echo Build finished!",
+    "start": "tsc && echo Build finished! && node build/Startup.js",
+    "watch": "tsc-watch --project . --onSuccess \"node build/Startup.js\""
+  },
+  "author": "Simon Wakenhut",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SimonWakenhut/typescript-nodejs-template.git"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^10.0.4",
+    "tsc-watch": "^1.0.21",
+    "typescript": "^2.8.3"
+  }
+}

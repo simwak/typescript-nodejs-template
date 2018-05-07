@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+	"module": "commonjs",
+    "sourceMap": true,
+	"outDir": "./build/",
+	"rootDir": "./source/",
+	"removeComments": true,
+	"strict": true,
+	"alwaysStrict": true,
+	"moduleResolution": "node",
+	"baseUrl": "./source/",
+	"sourceRoot": "./source/"
+  }
+}
